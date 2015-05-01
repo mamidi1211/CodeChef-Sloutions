@@ -1,0 +1,17 @@
+// # CodeChef-Sloutions
+// My Approaches for Practice Problems in Codechef
+
+
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main()
+{
+	float m,n;
+	scanf("%f%f",&m,&n);
+	if(((int)m%5)!=0 || m<=0 || m>2000 || n<0 || n>2000 || (m+0.5-n)>0)
+	printf("%.2f",n);
+	else
+	printf("%.2f",(n-m-0.5));
+	return(0);
+}
